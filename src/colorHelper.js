@@ -9,7 +9,6 @@ const image = document.getElementById("image");
 
 // Sets paths for image carousel
 const imageFiles = ["../src/images/image1.jpg", "../src/images/image2.jpg", "../src/images/image3.jpg"
-, "../src/images/image4.jpg", "../src/images/IMG_3422.JPG"
                    ];
 
 // Set color variables for hex codes we use more than once
@@ -28,8 +27,7 @@ const colors = [
   { color: tokyoNightYellow, background: tokyoNightBackground, hlcol: tokyoNightBlue, linkcol: "#A8B8CF", hovercol: tokyoNightPurple }, // colors for image 1
   { color: "#D2C7CB", background: "#15191d", hlcol: "#00d1ff", linkcol: "#9fadc6", hovercol: "#ff0019" }, // colors for image 2
   { color: '#ffffff', background: "#1a1b26", hlcol: '#ffe000', linkcol: tokyoNightForeground, hovercol: "#ff0000" },  // colors for image 3
-  { color: tokyoNightYellow, background: tokyoNightBackground, hlcol: tokyoNightBlue, linkcol: "#A8B8CF", hovercol: tokyoNightPurple }, // colors for image 1
-  { color: tokyoNightYellow, background: tokyoNightBackground, hlcol: tokyoNightBlue, linkcol: "#A8B8CF", hovercol: tokyoNightPurple }, // colors for image 1
+
 ];
 
 // Define a function to preload the images
